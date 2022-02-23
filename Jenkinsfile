@@ -4,7 +4,7 @@ pipeline {
 	stages {
 	    stage('1 python shell') {
 			steps {
-				  sh 'python --version'
+				  sh 'python /var/lib/jenkins/workspace/test1@2/hello.py'
 			}
 		}
 	}
